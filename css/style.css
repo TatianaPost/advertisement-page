@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+body
+{
+	font-family: 'Poppins', sans-serif;
+	font-size:14px;
+}
+h1
+{
+	font-size:24px;
+}
+.full
+{
+	background-color:#F8F8F8;
+	border-bottom:1px solid #ddd;
+	
+}
+.banner
+{
+	background:url(../images/bg.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+color: #000;  /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >   
+ a:hover, .navbar-default .navbar-nav > .active > a:focus {
+color: #333; /*BACKGROUND color for active*/
+
+}
+
+  .navbar-default {
+    background-color: #f7f7f7;
+	
+    
+	margin-bottom:0px;
+	border:0px !important;
+	
+}
+
+  .dropdown-menu > li > a:hover,
+   .dropdown-menu > li > a:focus {
+    color: #333;
+   text-decoration: none;
+  background-color: #66CCFF;  /*change color of links in drop down here*/
+   }
+
+ .nav > li > a:hover,
+ .nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver; /*Change rollover cell color here*/
+  }
+
+
+  .navbar-default .navbar-nav > li > a {
+   color: #333; /*Change active text color here*/
+    }
+	.wp
+	{
+		text-align:center;
+	}
+	.wp p
+	{
+		text-align:center;
+	}
+	.main
+	{
+		
+	}
+	.new
+	{
+		background-color:#C90;
+		padding: 25px 15px;
+		color:#fff;
+		
+	}
+	.inner
+	{
+		background-color:#fff;
+	}
+	.footermenu {
+    padding-bottom: 15px;
+    padding-top: 10px;
+	
+}
+.team
+{
+	padding:30px 15px;
+	text-align:center;
+	background-color:#CC9900;
+	color:#fff;
+}
+.person
+{
+	text-align:center;
+	margin-top:25px;
+}
+.person img
+{
+	border:3px solid #ddd;
+	padding:3px;
+}
+.person p
+{
+	margin-top:15px;
+	font-size:16px;
+}
+.footermenu h4
+{
+	border-bottom:4px solid #ddd;
+	padding-bottom:5px;
+}
+.footermenu ul {
+    margin: 0;
+    padding: 0;
+}
+.footermenu ul li {
+    list-style: outside none none;
+}
+.footermenu a {
+    color: #000;
+}
+.copy
+{
+	background-color:#d6d6d6;
+	text-align:center;
+	line-height:4em;
+}
+
+.media {
+ 
+  position: relative;
+  vertical-align: top;
+}
+
+.media__image { display: block; }
+
+.media__body {
+  background: rgba(41, 128, 185, 0.7);
+  bottom: 0;
+  color: white;
+  font-size: 1em;
+  left: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 3.75em 3em;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  right: 0;
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+
+.media__body:hover { opacity: 1; }
+
+.media__body:after,
+.media__body:before {
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  bottom: 1em;
+  content: '';
+  left: 1em;
+  opacity: 0;
+  position: absolute;
+  right: 1em;
+  top: 1em;
+  -webkit-transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: 0.6s 0.2s;
+  transition: 0.6s 0.2s;
+}
+
+.media__body:before {
+  border-bottom: none;
+  border-top: none;
+  left: 2em;
+  right: 2em;
+}
+
+.media__body:after {
+  border-left: none;
+  border-right: none;
+  bottom: 2em;
+  top: 2em;
+}
+
+.media__body:hover:after,
+.media__body:hover:before {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1);
+  opacity: 1;
+}
+
+
+.media2 {
+ 
+  position: relative;
+  vertical-align: top;
+}
+
+
+
+.media__body2 {
+    background: rgba(41, 128, 185, 0.7);
+    border-radius: 50%;
+    bottom: 0;
+    color: white;
+    font-size: 1em;
+    height: 200px;
+    left: 81px;
+    opacity: 0;
+    overflow: hidden;
+    padding: 3.75em 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    transition: all 0.6s ease 0s;
+    width: 200px;
+}
+
+.media__body2:hover { opacity: 1; }
+
+
+
+
+.media__body2 h2
+{
+	font-size:22px;
+}
+
+@media (max-width:1200px)
+{
+	.media__body2
+	{
+		display:none !important;
+	}
+	.team
+	{
+		margin-top:20px;
+	}
+}
